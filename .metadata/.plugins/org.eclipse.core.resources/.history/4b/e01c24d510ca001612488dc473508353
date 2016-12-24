@@ -1,0 +1,5 @@
+package com.ds.training.rest.pojo;
+
+public class People {
+
+}

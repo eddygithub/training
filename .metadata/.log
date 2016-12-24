@@ -1,0 +1,98 @@
+!SESSION 2016-12-24 14:32:41.651 -----------------------------------------------
+eclipse.buildId=3.7.3.201602250940-RELEASE-e45
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide -keyring /Users/ezhu/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springsource.sts.ide -keyring /Users/ezhu/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-24 14:33:13.513
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2016-12-24 14:33:15.927
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-24 14:33:15.927
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b62ad1e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@714a4ba2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-12-24 14:34:55.173
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin org.cloudfoundry.ide.eclipse.server.branding.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-12-24 14:34:55.174
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2016-12-24 14:37:15.103
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2016-12-24 14:37:15.103
+!MESSAGE session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jaxrs,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jpa,1.2.2.20160830-1241
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jsf,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.overlay,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.overlay.ui,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: osgi.bundle,org.sonatype.m2e.buildhelper,0.15.0.201212120353
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.feature,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jaxrs.feature,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jpa.feature,1.2.2.20160830-1241
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jsf.feature,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.103
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.sonatype.m2e.buildhelper.feature,0.15.0.201212120353
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2016-12-24 14:37:15.105
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2016-12-24 14:37:15.105
+!MESSAGE session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jaxrs,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jpa,1.2.2.20160830-1241
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jsf,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.overlay,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.overlay.ui,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: osgi.bundle,org.sonatype.m2e.buildhelper,0.15.0.201212120353
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.feature,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jaxrs.feature,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jpa.feature,1.2.2.20160830-1241
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jsf.feature,1.2.2.20160830-1240
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-12-24 14:37:15.105
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.sonatype.m2e.buildhelper.feature,0.15.0.201212120353
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-12-24 14:53:14.872
+!MESSAGE delete(String) [in PeopleController [in [Working copy] PeopleController.java [in com.ds.training.rest.controller [in src/main/java [in RestTraining]]]]] does not exist
